@@ -1,0 +1,128 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  letter-spacing: 1px;
+  margin-left: 50px;
+  width: 70%;
+}
+
+p {
+  color: #EEE3CB;
+  width: 82%;
+  margin-left: 50px;
+}
+
+footer {
+  padding-top: 2rem;
+}
+
+
+/* bg-image */
+
+.background-img {
+  position: absolute;
+  z-index: -1;
+}
+
+/* first-section */
+
+#banner-section {
+  padding: 5% 5%;
+}
+
+
+/* second-section */
+
+#body-section {
+  padding: 1% 6%;
+}
+
+.body-image {
+  max-width: 100%;
+}
+
+.text-div {
+  padding: 3%;
+  text-align: left;
+}
+
+.register-bt {
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  width: 25%;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  border-radius: 3rem;
+  padding: 12px;
+  margin-left: 50px;
+}
+
+.register-bt:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #EEE3CB;
+  cursor: pointer;
+}
+
+/* third-section */
+
+#link-section {
+  text-align: right;
+}
+
+
+.icon-button {
+  background-color: hsl(257, 40%, 49%);
+  color: #fff;
+  border-color: #fff;
+  border-radius: 100%;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 20px;
+  position: relative;
+  right: 150px;
+}
+
+.tweet {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.insta {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.icon-button:hover {
+  border-color: hsl(300, 69%, 71%);
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+
+
+
+/* footer */
+
+
+
+.attribution {
+  text-align: center;
+  color: #fff;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #F07DEA;
+}
+
+.attribution a:hover {
+  color: #EEEEEE;
+  cursor: pointer;
+}
